@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         int num2 = Integer.parseInt(input2.getText().toString());
 
         printAnswer(num1 / num2);
+
     }
 
     public void printAnswer(int ans) {
